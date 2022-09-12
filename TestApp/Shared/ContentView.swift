@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, "+ someone() + "got started on XCODE")
             .padding()
-        func someoneone() -> String {
+        func someone() -> String {
             print(" returns Peter")
             return ("Peter")
         }
